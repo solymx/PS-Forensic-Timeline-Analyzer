@@ -35,7 +35,8 @@ A lightweight, standalone **PowerShell GUI tool** designed for digital forensics
 
 1.  **Download:** Clone this repository or download the `.ps1` script.
 2.  **Run:** Right-click the script and select "Run with PowerShell".
-    * *Note: You may need to set execution policy if you haven't already:* ```powershell
+    * *Note: You may need to set execution policy if you haven't already:*
+      ```powershell
         Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
         ```
 3.  **Interface Guide:**
