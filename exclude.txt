@@ -1,0 +1,11 @@
+# 這是註解，程式會忽略
+# 建議排除龐大的系統備份目錄
+C:\Windows\WinSxS
+C:\Windows\Servicing
+# 如果不查應用程式安裝檔，可排除
+C:\Program Files\
+C:\Program Files (x86)\
+# 排除 Windows Defender 的定義檔更新
+C:\ProgramData\Microsoft\Windows Defender\
+# TrashCan
+C:\$Recycle.Bin\
