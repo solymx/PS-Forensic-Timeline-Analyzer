@@ -1,7 +1,7 @@
 
 
 
-# 🕵️‍♂️ PS Forensic Timeline & MOTW Analyzer
+# PS Forensic Timeline & MOTW Analyzer
 
 A lightweight, standalone **PowerShell GUI tool** designed for digital forensics and incident response (DFIR). This tool assists analysts in filtering files based on timestamps, analyzing file ownership, and inspecting "Mark of the Web" (MOTW) data to trace the origin of downloaded files.
 
@@ -9,7 +9,7 @@ A lightweight, standalone **PowerShell GUI tool** designed for digital forensics
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![Version](https://img.shields.io/badge/version-v8.0-green)
 
-## 🚀 Key Features
+##  Key Features
 
 * **GUI Interface:** User-friendly Windows Forms interface, no complex command-line arguments needed.
 * **Timeline Analysis:** Filter files by `LastWriteTime`, `CreationTime`, or `LastAccessTime` within a specific date range.
@@ -22,16 +22,16 @@ A lightweight, standalone **PowerShell GUI tool** designed for digital forensics
 * **Responsiveness:** Stop button allows for immediate cancellation of long-running scans (Fixed in v8.0).
 * **Export:** Export results to CSV for further analysis in Excel or other tools.
 
-## 🆕 What's New in v8.0
+##  What's New in v8.0
 * **[Critical] UI Fix:** The "Stop" button is now fully responsive. The scanning loop uses a counter-based UI refresh mechanism to prevent the interface from freezing during heavy operations.
 * **Exclusion Logic:** Fixed a bug where the "Pre-scan Owners" function was ignoring the exclusion list.
 
-## 📋 Requirements
+##  Requirements
 * Windows OS (Windows 10/11/Server recommended).
 * PowerShell 5.1 (Default on Windows) or higher.
 * Administrator privileges are recommended to access system files and read specific ACLs.
 
-## 🛠️ How to Use
+##  How to Use
 
 1.  **Download:** Clone this repository or download the `.ps1` script.
 2.  **Run:** Right-click the script and select "Run with PowerShell".
@@ -46,7 +46,7 @@ A lightweight, standalone **PowerShell GUI tool** designed for digital forensics
     * **4. Time & MOTW:** Set your date range and ensure "Deep Parse MOTW" is checked for internet artifact analysis.
     * **5. Search:** Click "Start Forensic Search".
 
-## 📂 Exclusion List Format
+##  Exclusion List Format
 Create a `.txt` file with one path per line. Lines starting with `#` are ignored.
 Example:
 ```text
